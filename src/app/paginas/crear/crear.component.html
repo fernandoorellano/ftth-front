@@ -1,0 +1,14 @@
+<div class="contenedor">   
+    <div class="row">
+        <div class="col">
+            <p>Formulario de ingreso</p>
+            <input placeholder="Ingrese descripcion" [(ngModel)]="descripcion">
+            <input placeholder="Ingrese fecha" [(ngModel)]="fecha">
+            <input placeholder="Ingrese numero pon" [(ngModel)]="pon">
+            <input placeholder="Ingrese pago de Mayo" [(ngModel)]="pagoMayo">
+            <input placeholder="Ingrese pago de Junio" [(ngModel)]="pagoJunio">
+            <input placeholder="Ingrese pago de Julio" [(ngModel)]="pagoJulio">
+            <button (click)="crearAbonado(descripcion, fecha, pon, pagoMayo, pagoJunio, pagoJulio)">Guardar</button>
+        </div>
+    </div>
+</div>

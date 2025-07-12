@@ -1,0 +1,5 @@
+<p>Hoy {{fechaActual | date: "dd-MM-yyyy"}} le toca abonar a </p>
+
+<div class="fechas" *ngFor="let item of listadoServ.mensajePagoActual">
+    {{item}}
+</div>
