@@ -48,5 +48,10 @@ export class InicioComponent implements OnInit {
             }
         }
     }
+    enviarMensaje(){
+      const link = `https://wa.me/1168449947?text=hola`;
+      console.log(link);
+      window.open(link,"_blanck")
+    }
 
 }
