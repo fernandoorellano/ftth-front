@@ -30,45 +30,64 @@
         padding: 0;
     }
     .col-1{
-        padding: 2px;
-     
+        width: 5vw;
+        padding: 1px;
+       font-size: 12px;
     }
+
+    .col-1 input{
+       font-size: 12px;
+    }
+
     .col-2{
-        padding: 2px;
-     
+        padding: 1px;
+        min-width: 20vw;
     }
     .col-1 p{
         writing-mode: vertical-lr;
         display: flex;
         justify-content: center;
+        font-size: 14px;
     }
+
+    .col{
+        font-size: 12px;
+    }
+
     .col input{
-       border: 1px solid red;
+    font-size: 12px;
     }
     .col-2 p{
         writing-mode: vertical-lr;
         display: flex;
         justify-content: center;
+         font-size: 12px;
+    }
+    .col-2 input{
+        font-size: 12px;
     }
     .btns{
         flex-direction: column;
-        align-items: center;
     }
-    .col-2 button{
-        width: 100%;
-        height: 20px;
+    .col button{
+        font-size: 9px;
+        width: 15px;
+        height: 17px;
         display: flex;
+        justify-content: center;
     }
 }
 
 .col-2{
-    width: 10%;
+    width: 14vw;
 }
 
 .col input{
     width: 100%;
 }
 
+
+
 .btns{
-      display: flex;
+    display: flex;
 }
