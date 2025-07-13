@@ -9,7 +9,7 @@ import { ListadoService } from './listado.service';
 export class ApiserviceService {
 
   /*API_URL = 'http://localhost:4300';*/
-  API_URL = "https://ftth-back.onrender.com/abonados";
+  API_URL = "https://ftth-back.onrender.com";
   fechas: any = [];
   publicacionesBdApi: any = [];
 
